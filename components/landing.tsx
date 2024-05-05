@@ -89,9 +89,9 @@ export function Landing() {
                 <img
                   alt="Catgirl"
                   className="mx-auto aspect-square overflow-hidden rounded-full object-cover object-top"
-                  height={380}
+                  height={370}
                   src={sw18.src}
-                  width={380}
+                  width={370}
                 />
               </div>
             </div>
