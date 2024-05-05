@@ -54,7 +54,7 @@ export function Landing() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center">
           <div className="container px-4 md:px-6 flex items-center justify-center">
-            <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+            <div className="grid">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500">
@@ -63,11 +63,11 @@ export function Landing() {
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                     Just a catgirl on soylana. Choose rich uwu.
                   </p>
-                  <p className="max-w-[600px] text-gray-500 md:text-sm dark:text-gray-400 pt-8">
+                  <p className="max-w-[600px] text-gray-500 md:text-sm dark:text-gray-400">
                     CA: BAcgDDddFrgMPpLR1wmNrqgJxiFrnzSRsPHmx9N7sCp9
                   </p>
                 </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center items-center p-10">
                   {/* <Link
                     className="inline-flex h-10 items-center justify-center rounded-full bg-pink-500 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-pink-700 disabled:pointer-events-none disabled:opacity-50"
                     href="#"
@@ -75,7 +75,7 @@ export function Landing() {
                     Buy now at pumpdotfun
                   </Link> */}
                   <Link
-                    className="inline-flex h-10 items-center justify-center rounded-full border  border-pink-500 bg-white px-8 text-sm font-medium text-pink-500 shadow-sm transition-colors hover:bg-pink-50 hover:text-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-pink-700 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800"
+                    className="inline-flex h-10 items-center justify-center border-pink-500 bg-white px-8 text-sm font-medium text-pink-500 shadow-sm transition-colors hover:bg-pink-50 hover:text-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-pink-700 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800"
                     href="https://www.pump.fun/BAcgDDddFrgMPpLR1wmNrqgJxiFrnzSRsPHmx9N7sCp9"
                   >
                     Buy now at pumpdotfun
