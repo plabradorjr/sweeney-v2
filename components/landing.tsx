@@ -64,7 +64,7 @@ export function Landing() {
                     A Catgirl Version of Sydney Sweeney
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 pt-3">
-                    Only on soylana. Choose rich uwu senpai.
+                    Tokenized on soylana only for you senpai!
                   </p>
                   <p className="max-w-[600px] text-gray-500 text-xs sm:text-sm dark:text-gray-400 pt-2">
                     CA: BAcgDDddFrgMPpLR1wmNrqgJxiFrnzSRsPHmx9N7sCp9
