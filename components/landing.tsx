@@ -52,18 +52,21 @@ export function Landing() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center">
+        <section className="w-full py-10 md:py-24 lg:py-24 flex items-center justify-center">
           <div className="container px-4 md:px-6 flex items-center justify-center">
             <div className="grid">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500">
-                    Welcome to Catgirl Sweeney
+              <div className="flex flex-col justify-center px-2">
+                <div className="m-2 p-2">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500 px-2">
+                    Finally,
                   </h1>
-                  <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                    Just a catgirl on soylana. Choose rich uwu.
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500 px-2">
+                    A Catgirl Version of Sydney Sweeney
+                  </h1>
+                  <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 px-3 pt-3">
+                    Only on soylana. Choose rich uwu senpai.
                   </p>
-                  <p className="max-w-[600px] text-gray-500 md:text-sm dark:text-gray-400">
+                  <p className="max-w-[600px] text-gray-500 md:text-sm dark:text-gray-400 px-3">
                     CA: BAcgDDddFrgMPpLR1wmNrqgJxiFrnzSRsPHmx9N7sCp9
                   </p>
                 </div>
@@ -82,13 +85,13 @@ export function Landing() {
                   </Link>
                 </div>
               </div>
-              <div className="flex justify-end">
+              <div className="flex justify-end px-2">
                 <img
                   alt="Catgirl"
                   className="mx-auto aspect-square overflow-hidden rounded-full object-cover object-top"
-                  height={600}
+                  height={400}
                   src={sw18.src}
-                  width={600}
+                  width={400}
                 />
               </div>
             </div>
