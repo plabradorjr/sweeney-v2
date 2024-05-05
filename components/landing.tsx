@@ -30,7 +30,7 @@ import gib from "./images/gib.png";
 
 export function Landing() {
   return (
-    <div className="flex flex-col min-h-[100dvh]">
+    <div className="flex flex-col">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="/">
           <CatIcon className="h-6 w-6 text-pink-500" />
@@ -53,24 +53,24 @@ export function Landing() {
       </header>
       <main className="flex-1">
         <section className="w-full py-10 md:py-24 lg:py-24 flex items-center justify-center">
-          <div className="container px-4 md:px-6 flex items-center justify-center">
-            <div className="grid">
-              <div className="flex flex-col justify-center">
-                <div className="m-2 p-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500 px-2">
+          <div className="container flex items-center justify-center">
+            <div className="grid items-center">
+              <div className="flex flex-col">
+                <div className="flex flex-col justify-center items-left p-4 sm:p-10">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500">
                     Finally,
                   </h1>
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500 px-2">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500">
                     A Catgirl Version of Sydney Sweeney
                   </h1>
-                  <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 px-3 pt-3">
+                  <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 pt-3">
                     Only on soylana. Choose rich uwu senpai.
                   </p>
-                  <p className="max-w-[600px] text-gray-500 md:text-sm dark:text-gray-400 px-3">
+                  <p className="max-w-[600px] text-gray-500 text-xs sm:text-sm dark:text-gray-400 pt-2">
                     CA: BAcgDDddFrgMPpLR1wmNrqgJxiFrnzSRsPHmx9N7sCp9
                   </p>
                 </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center items-center p-10">
+                <div className="flex flex-col min-[400px]:flex-row justify-center items-center p-10">
                   {/* <Link
                     className="inline-flex h-10 items-center justify-center rounded-full bg-pink-500 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-pink-700 disabled:pointer-events-none disabled:opacity-50"
                     href="#"
@@ -85,19 +85,19 @@ export function Landing() {
                   </Link>
                 </div>
               </div>
-              <div className="flex justify-end px-2">
+              <div className="flex justify-end">
                 <img
                   alt="Catgirl"
                   className="mx-auto aspect-square overflow-hidden rounded-full object-cover object-top"
-                  height={400}
+                  height={380}
                   src={sw18.src}
-                  width={400}
+                  width={380}
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-pink-50 dark:bg-pink-900 flex items-center justify-center">
+        <section className="w-full py-10 md:py-24 lg:py-32 bg-pink-50 dark:bg-pink-900 flex items-center justify-center">
           <div className="container grid items-center justify-center  px-4 md:px-6">
             <div className="space-y-3">
               <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-pink-500 pb-5">
