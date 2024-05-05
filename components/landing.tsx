@@ -55,7 +55,7 @@ export function Landing() {
         <section className="w-full py-10 md:py-24 lg:py-24 flex items-center justify-center">
           <div className="container px-4 md:px-6 flex items-center justify-center">
             <div className="grid">
-              <div className="flex flex-col justify-center px-2">
+              <div className="flex flex-col justify-center">
                 <div className="m-2 p-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-pink-500 px-2">
                     Finally,
