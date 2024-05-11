@@ -27,6 +27,10 @@ import sw7 from "./images/sw7.png";
 import s8 from "./images/s8.png";
 import sw11 from "./images/sw11.png";
 import gib from "./images/gib.png";
+import box0 from "./images/boxer/box0.png";
+import box3 from "./images/boxer/box3.png";
+import box4 from "./images/boxer/box4.png";
+import box5 from "./images/boxer/box5.png";
 
 export function Landing() {
   return (
@@ -162,6 +166,34 @@ export function Landing() {
                 className="overflow-hidden object-contain"
                 height={250}
                 src={gib.src}
+                width={250}
+              />
+              <img
+                alt="Catgirl"
+                className="overflow-hidden object-contain"
+                height={250}
+                src={box0.src}
+                width={250}
+              />
+              <img
+                alt="Catgirl"
+                className="overflow-hidden object-contain"
+                height={250}
+                src={box3.src}
+                width={250}
+              />
+              <img
+                alt="Catgirl"
+                className="overflow-hidden object-contain"
+                height={250}
+                src={box4.src}
+                width={250}
+              />
+              <img
+                alt="Catgirl"
+                className="overflow-hidden object-contain"
+                height={250}
+                src={box5.src}
                 width={250}
               />
             </div>
