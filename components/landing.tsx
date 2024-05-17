@@ -18,7 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link";
-import weTen from "./images/weTendies.png";
+import weTen from "./images/weTendies1.png";
 import sw17 from "./images/sw17.png";
 import sw12 from "./images/sw12.png";
 import sw14 from "./images/sw14.png";
