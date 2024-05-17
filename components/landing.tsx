@@ -18,7 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link";
-import sw18 from "./images/sw18.png";
+import weTen from "./images/weTendies.png";
 import sw17 from "./images/sw17.png";
 import sw12 from "./images/sw12.png";
 import sw14 from "./images/sw14.png";
@@ -56,7 +56,7 @@ export function Landing() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full py-10 md:py-24 lg:py-24 flex items-center justify-center">
+        <section className="w-full py-10 md:py-20 lg:py-20 flex items-center justify-center">
           <div className="container flex items-center justify-center">
             <div className="grid items-center">
               <div className="flex flex-col">
@@ -82,7 +82,7 @@ export function Landing() {
                     Buy now at pumpdotfun
                   </Link> */}
                   <Link
-                    className="inline-flex h-10 items-center justify-center border-pink-500 bg-white px-8 text-sm font-medium text-pink-500 shadow-sm transition-colors hover:bg-pink-50 hover:text-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-pink-700 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800"
+                    className="inline-flex h-12 items-center justify-center border-green-500 bg-white px-10 text-lg font-medium text-pink-500 shadow-sm transition-colors hover:bg-pink-50 hover:text-pink-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-pink-700 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800"
                     href="https://www.pump.fun/BAcgDDddFrgMPpLR1wmNrqgJxiFrnzSRsPHmx9N7sCp9"
                   >
                     Buy now at pumpdotfun
@@ -92,10 +92,10 @@ export function Landing() {
               <div className="flex justify-end">
                 <img
                   alt="Catgirl"
-                  className="mx-auto aspect-square overflow-hidden rounded-full object-cover object-top"
-                  height={370}
-                  src={sw18.src}
-                  width={370}
+                  className="mx-auto aspect-contain overflow-hidden object-contain object-top"
+                  height={900}
+                  src={weTen.src}
+                  width={900}
                 />
               </div>
             </div>
