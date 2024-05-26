@@ -31,6 +31,7 @@ import box0 from "./images/boxer/box0.png";
 import box3 from "./images/boxer/box3.png";
 import box4 from "./images/boxer/box4.png";
 import box5 from "./images/boxer/box5.png";
+import boobaSum1 from "./images/memes/boobaSummer1.jpg";
 
 export function Landing() {
   return (
@@ -93,9 +94,9 @@ export function Landing() {
                 <img
                   alt="Catgirl"
                   className="mx-auto aspect-contain overflow-hidden object-contain object-top"
-                  height={900}
-                  src={weTen.src}
-                  width={900}
+                  height={300}
+                  src={boobaSum1.src}
+                  width={400}
                 />
               </div>
             </div>
